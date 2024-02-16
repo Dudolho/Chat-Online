@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat</title>
+
+    <link rel="stylesheet" href="Css/style.css">
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,1,0" />
+</head>
+<body>
+    
+    <section class="container"> <!--Container-->
+
+        <section class="login"> <!--Pagina de Login-->
+
+            <h2>Login</h2>
+            <form class="login__form">
+                <input type="text" class="login__input" placeholder="Seu nome" required> 
+                <button type="submit" class="login__button">Entrar</button>
+            </form>
+
+        </section> <!--Fim Pagina de Login-->
+
+
+        <section class="chat"> <!--Pagina do chat-->
+            <section class="chat__messages"> <!--Parte das mensagens-->
+
+                <!--<div class="message--self">Hello, world!</div>
+
+                <div class="message--other">
+                    <span class="message--sender">Eduardo</span>
+                    Olá, mundo
+                </div> -->
+
+            </section> <!--fim Parte das mensagens-->
+
+            <form class="chat__form"> <!--formulario para o envio de mensagens-->
+                <input type="text" class="chat__input" placeholder="Digite uma mensagem" required>
+                <button type="submit" class="chat__button"><span class="material-symbols-outlined">send</span>
+                </button>
+            </form> <!--fim formulario para o envio de mensagens-->
+        </section> <!--Fim Pagina do chat-->
+    </section> <!--fim Container-->
+
+    <script src="Js/script.js"></script>
+</body>
+</html>
