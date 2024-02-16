@@ -83,7 +83,7 @@ const handleLogin = (event) => { //função a ser executada no submit
     login.style.display = 'none' //ocultando a tela de login
     chat.style.display = 'flex' //mostrando a tela de chat
 
-    websocket = new WebSocket("ws://localhost:8080")
+    websocket = new WebSocket("wss://chat-backend-euly.onrender.com")
     websocket.onmessage = processMessage
 }
 
